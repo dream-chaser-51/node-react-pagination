@@ -9,7 +9,7 @@ import { GlobalContext } from './globalContext';
 function App() {
 
   const contextValue = useContext(GlobalContext);
-  
+
   const [pageNumber, setPageNumber] = useState(0);
   const [numberOfPages, setNumberOfPages] = useState(0);
   const [inputs, setInputs] = useState({});
@@ -63,6 +63,9 @@ function App() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    if (!inputs.productId || !inputs.entitiesId) {
+      return;
+    }
     axios({
       method: 'post',
       url: 'http://localhost:3001/api/product',
