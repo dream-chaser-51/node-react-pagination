@@ -1,12 +1,15 @@
-import "./App.css";
 import { useEffect, useState, useContext } from "react";
 import axios from 'axios';
+
+import "./App.css";
+
 import ProductTable from './components/productTable';
 import { GlobalContext } from './globalContext';
 
 function App() {
 
   const contextValue = useContext(GlobalContext);
+  
   const [pageNumber, setPageNumber] = useState(0);
   const [numberOfPages, setNumberOfPages] = useState(0);
   const [inputs, setInputs] = useState({});
