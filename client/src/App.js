@@ -84,7 +84,7 @@ function App() {
   
   return (
     <div className="App">
-
+     {/*  TODO: Need to move separate component */}
       <div class="container">
         <h1> Product Form </h1>
         <form id="contact" onSubmit={handleSubmit}>
@@ -114,6 +114,7 @@ function App() {
 
       <ProductTable />
 
+      {/*  TODO: Need to move separate component */}
       <ul class="pagination modal-1">
         <li>
           <a href="#" class="prev" onClick={gotoPrevious}>&laquo;</a>
