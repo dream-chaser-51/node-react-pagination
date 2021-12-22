@@ -8,18 +8,21 @@ cd server
 npm run dev
 
 
-Development Setup
-Clone the repository.
+Development Setup Server:
 
-Change to server directory and install dependencies using the below command
+  Clone the repository.
 
-npm install
+  Change to server directory and install dependencies using the below command
 
-Copy .env.example inside server directory to .env and set the required values
+  npm install
 
-Start the server using the below command
+  Copy .env.example inside server directory to .env and set the required values
+
+Start the server using the below command :
 
 npm run dev
+
+Development Setup Client:
 
 switch to another terminal
 
