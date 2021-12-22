@@ -35,3 +35,7 @@ start the server using the below command
 npm run start
 
 Open the browser at location http://localhost:3000
+
+Master Entities Crud Postman Collection:
+https://www.getpostman.com/collections/b33810c3840de22cfd92
+
