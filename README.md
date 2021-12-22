@@ -1,2 +1,34 @@
 # node-react-pagination
-Pagination
+
+Commands Reference.
+Start the server in development mode
+
+cd server
+
+npm run dev
+
+
+Development Setup
+Clone the repository.
+
+Change to server directory and install dependencies using the below command
+
+npm install
+
+Copy .env.example inside server directory to .env and set the required values
+
+Start the server using the below command
+
+npm run dev
+
+switch to another terminal
+
+change to client directory and install dependencies using the below command
+
+npm install
+
+start the server using the below command
+
+npm run start
+
+Open the browser at location http://localhost:3000
